@@ -3,7 +3,7 @@ title:       Mtrlmd
 email:       mitrilmad@gmail.com
 author:      John Otander
 description: "All about me"
-baseurl:     ""
+baseurl:     "mitrilmad.github.io"
 url:         "mitrilmad.github.io"
 date_format: "%b %-d, %Y"
 
