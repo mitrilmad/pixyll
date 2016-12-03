@@ -4,7 +4,7 @@ email:       mitrilmad@gmail.com
 author:      John Otander
 description: "All about me"
 baseurl:     ""
-url:         "mitrilmad.github.io"
+url:         "https://mitrilmad.github.io/"
 date_format: "%b %-d, %Y"
 
 # Google services
