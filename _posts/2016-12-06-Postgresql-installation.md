@@ -15,14 +15,8 @@ categories: mtrlmd
 * postgres=# Create database playdb;
 * postgres=# select * from pg_database;
 
+{{ site.url }}/images/postgre_database_creation.PNG
 
-datname  | datdba | encoding | datcollate  |  datctype   | datistemplate | datallowconn | datconnlimit | datlastsysoid | datfrozenxid | dattablespace |               datacl
------------+--------+----------+-------------+-------------+---------------+--------------+--------------+---------------+--------------+---------------+-------------------------------------
-template1 |     10 |        6 | en_US.UTF-8 | en_US.UTF-8 | t             | t            |           -1 |         12918 |         1877 |          1663 | {=c/postgres,postgres=CTc/postgres}
-template0 |     10 |        6 | en_US.UTF-8 | en_US.UTF-8 | t             | f            |           -1 |         12918 |         1877 |          1663 | {=c/postgres,postgres=CTc/postgres}
-postgres  |     10 |        6 | en_US.UTF-8 | en_US.UTF-8 | f             | t            |           -1 |         12918 |         1877 |          1663 |
-playdb    |     10 |        6 | en_US.UTF-8 | en_US.UTF-8 | f             | t            |           -1 |         12918 |         1877 |          1663 |
-(4 rows)
 
 
 * postgres=# create user playuser password 'playuser' login;
