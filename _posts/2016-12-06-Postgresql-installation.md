@@ -15,10 +15,10 @@ categories: mtrlmd
 * postgres=# Create database playdb;
 * postgres=# select * from pg_database;
 
-{{ site.url }}/images/postgre_database_creation.PNG
+![]({{ site.url }}/images/postgre_database_creation.PNG)
 
 
 
 * postgres=# create user playuser password 'playuser' login;
-
-{{ site.url }}/images/postgre_user_creation.PNG
+({{ site.baseurl }}/images/config.png)
+![]({{ site.baseurl }}/images/postgre_user_creation.PNG)
