@@ -19,6 +19,8 @@ categories: mtrlmd
 
 
 
+
+
 * postgres=# create user playuser password 'playuser' login;
 ({{ site.baseurl }}/images/config.png)
 ![]({{ site.baseurl }}/images/postgre_user_creation.PNG)
